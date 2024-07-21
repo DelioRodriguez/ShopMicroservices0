@@ -62,7 +62,7 @@ public class CategoryRepository : ICategoriesRepository
         }
         catch (Exception e)
         {
-            this.Logger.LogError("Error agregando el curso", e.ToString());
+            this.Logger.LogError("Error agregando la categoria", e.ToString());
         }
     }
 
