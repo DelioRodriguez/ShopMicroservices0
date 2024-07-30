@@ -9,5 +9,6 @@ public static class ServiceConfiguration
     {
         services.AddHttpClient<ICategoriesServices, CategoriesServices>();
         services.AddHttpClient<ICustomerServices, CustomerServices>();
+        services.AddHttpClient<ISupplierServices, SupplierServices>();
     }
 }
